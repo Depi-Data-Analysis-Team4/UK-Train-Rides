@@ -1,17 +1,58 @@
-# UK Train Rides Analytics
+<div align="center">
 
-An end-to-end data analytics project exploring UK railway ticket transactions and journey performance, with Python-based data preparation and a planned Microsoft Power BI dashboard.
+# 🚆 UK Train Rides Analytics
 
-## Project Name
-UK Train Rides
+**Turning railway transaction data into clear operational insights.**
 
-## Project Idea
-Analyze UK railway ticket transactions to understand journey demand, ticket-class preferences, route performance, punctuality, delays, cancellations, refunds, and ticket-price patterns. The project brief also calls for forecasting the number of rides for the following month, estimating the daily ticket-value outlook, and identifying expected demand across ticket classes.
+![Python](https://img.shields.io/badge/Python-Data%20Preparation-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Status](https://img.shields.io/badge/Project-DEPI%20Analytics-2E8B57?style=for-the-badge)
 
-The forecasting objectives are part of the project brief and must not be presented as completed until a forecasting model has been built and validated.
+</div>
 
-## Team Members
-| Name | Role |
+---
+
+## 📌 Project Overview
+
+UK Train Rides is a data analytics project focused on understanding railway ticket transactions and journey performance. The analysis explores travel demand, routes, ticket preferences, punctuality, delays, cancellations, refunds, and ticket-price patterns.
+
+The project brief also asks for forecasting next-month ride volume, the daily ticket-value outlook, and demand across ticket classes. These are planned analytical deliverables and should only be marked complete after the forecasts are built and validated.
+
+## 🎯 Project Objectives
+
+- Examine transaction and journey trends over time.
+- Identify popular routes, stations, ticket classes, and ticket types.
+- Measure punctuality, delays, cancellations, and refund requests.
+- Explore purchase channels and payment preferences.
+- Prepare a reliable analytical model for Power BI reporting.
+- Develop and validate the requested ride-volume and ticket-demand forecasts.
+
+## 📊 Current Dataset Snapshot
+
+| Metric | Observed result |
+|---|---:|
+| Ticket transactions | **31,653** |
+| On-time transactions | **27,481 (86.82%)** |
+| Delayed transactions | **2,292 (7.24%)** |
+| Cancelled transactions | **1,880 (5.94%)** |
+| Refund requests | **1,118 (3.53%)** |
+| Average ticket Price field | **23.44** |
+
+<sub>Coverage: 1 January 2024 – 30 April 2024. Counts are at ticket-transaction level, not unique train-service level. Currency is not documented, so the Price total is not presented as verified revenue.</sub>
+
+## 🧭 Work Plan
+
+| Phase | Main activities |
+|---|---|
+| 1. Data Preparation | Profile source data, handle missing values carefully, standardize selected labels, parse dates and times, and prepare clean outputs. |
+| 2. Exploratory Analysis | Investigate routes, ticket types, ticket classes, purchase methods, payment methods, punctuality, delays, cancellations, and refunds. |
+| 3. Forecasting | Build and validate next-month ride-volume, daily ticket-value, and ticket-class demand forecasts. |
+| 4. Power BI Dashboard | Present key metrics, trends, route and ticket breakdowns, and interactive filters. |
+| 5. Validation & Presentation | Reconcile dashboard measures, document assumptions, and prepare the final project presentation. |
+
+## 👥 Team Members
+
+| Name | Responsibility |
 |---|---|
 | Hessin Taha | Team Leader |
 | Salma Sameh | Team Member |
@@ -19,58 +60,61 @@ The forecasting objectives are part of the project brief and must not be present
 | Ziad Emam | Team Member |
 | Ganna Amir | Team Member |
 
-## Instructor
-Mohamed Ahmed Saad
+*Detailed individual task ownership can be added once confirmed by the team.*
 
-## Work Plan
-1. **Data cleaning and preprocessing:** inspect the railway transaction source, profile missing values, standardize selected labels, parse dates and times, and prepare clean analytical outputs.
-2. **Analysis questions and exploration:** analyze transaction volume, routes, ticket classes and types, purchase channels, payment methods, punctuality, delays, cancellations, refunds, and price patterns.
-3. **Forecasting:** develop and validate a next-month ride-volume forecast, daily ticket-value outlook, and ticket-class demand analysis, subject to sufficient time coverage and documented assumptions.
-4. **Power BI dashboard:** build an interactive report with KPIs, trend analysis, route and ticket breakdowns, filters, and clear metric definitions.
-5. **Validation and presentation:** reconcile dashboard measures against independently calculated results, document limitations, and prepare the final presentation.
+## 🧑‍🏫 Instructor
 
-## Roles & Responsibilities
-- **Hessin Taha — Team Leader:** coordinate the project, organize deliverables, track progress, and lead final integration.
-- **Salma Sameh, Yassin Athula, Ziad Emam, and Ganna Amir — Team Members:** contribute to data preparation, analysis, dashboard development, validation, and documentation.
-- Individual task ownership for each member has not yet been provided and should be updated when confirmed.
+**Mohamed Ahmed Saad**
 
-## KPIs
-The available analysis report records the following transaction-level baseline:
+## 📈 Key Performance Indicators
 
-| KPI | Observed result |
-|---|---:|
-| Ticket transactions | 31,653 |
-| On-time transactions | 27,481 (86.82%) |
-| Delayed transactions | 2,292 (7.24%) |
-| Cancelled transactions | 1,880 (5.94%) |
-| Refund requests | 1,118 (3.53%) |
-| Average ticket Price field | 23.44 (currency not documented) |
-
-Additional dashboard and forecasting KPIs:
-- Total ticket transactions and monthly ride-volume trend.
+- Total ticket transactions and monthly transaction trend.
 - On-time, delay, and cancellation rates.
-- Average delay minutes where actual and scheduled arrival timestamps are available.
+- Average delay minutes when valid scheduled and actual arrival times are available.
 - Refund-request count and rate.
-- Transaction volume and demand by route, ticket class, and ticket type.
-- Forecasted next-month rides and daily ticket-value outlook, once modelled and validated.
+- Transaction volume by route, ticket class, and ticket type.
+- Forecasted next-month rides and ticket-class demand, once validated.
 
-**Metric caution:** the source records ticket transactions, not unique train services. The sum of the Price field must not be labelled verified revenue because currency and accounting treatment are undocumented.
+## 🛠️ Tools & Technologies
 
-## Project Files
-- `docs/project_summary.md` — detailed data scope, model structure, baseline findings, and limitations.
-- `cleaning_pipeline.py` and prepared CSV/model outputs are part of the project working materials and can be added as repository assets in a subsequent upload.
-- A native Power BI `.pbix` was not present in the located project artifacts; the analysis handoff report is not a deployed interactive dashboard.
+- **Python** — data preparation and analysis.
+- **pandas & NumPy** — transformation and validation.
+- **Microsoft Power BI** — planned interactive dashboard and reporting.
 
-## Data Scope & Limitations
-- The located analysis covers 31,653 ticket transactions from 2024-01-01 through 2024-04-30.
-- No train-service identifier is available, so counts and rates are transaction-level.
-- The source does not document the currency or accounting treatment for Price; the sum is not verified revenue.
-- Railcard nulls require confirmation from the data owner; they are retained as “Not recorded,” not assumed to mean “No railcard.”
-- Some delay-reason labels were standardized using explicit mappings; these assumptions should be reviewed before official use.
-- A native PBIX and interactive report behavior were not verified in the located artifacts.
+## 📁 Project Structure
 
-## Tools
-Python, pandas, NumPy, Microsoft Power BI.
+```text
+UK-Train-Rides/
+├── README.md
+├── docs/
+│   └── project_summary.md
+├── data/
+│   ├── source/
+│   ├── clean/
+│   └── dimensions/
+├── reports/
+└── powerbi/
+```
+
+*The structure above describes the intended organization. Only files actually committed to the repository should be considered submitted deliverables.*
+
+## ⚠️ Data Notes & Limitations
+
+- The available analysis covers four months only; it does not support reliable annual seasonality or year-over-year comparisons.
+- No train-service identifier is available, so the analysis measures ticket transactions rather than unique train services.
+- The currency and accounting treatment of the Price field are undocumented.
+- Missing Railcard values are labelled **Not recorded**; they are not assumed to mean that a passenger had no Railcard.
+- Standardized delay-reason labels use explicit mapping assumptions that should be reviewed with the data owner.
+- The located handoff materials did not include a verified native Power BI `.pbix` file.
+
+## 📄 Supporting Documentation
+
+- [Project Summary](docs/project_summary.md)
 
 ---
-Prepared for DEPI project submission.
+
+<div align="center">
+
+**DEPI · Data Analytics Project**
+
+</div>
