@@ -65,9 +65,9 @@ The project brief also asks for forecasting next-month ride volume, the daily ti
 
 *Detailed individual task ownership can be added once confirmed by the team.*
 
-## 🧑‍🏫 Instructor
+## 👨‍🏫 Course Instructor
 
-**Mohamed Ahmed Saad**
+**Eng. Mohamed Ahmed Saad**
 
 ## 📈 Key Performance Indicators
 
