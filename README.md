@@ -4,9 +4,12 @@
 
 **Turning railway transaction data into clear operational insights.**
 
-![Python](https://img.shields.io/badge/Python-Data%20Preparation-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Status](https://img.shields.io/badge/Project-DEPI%20Analytics-2E8B57?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-Data%20Analysis-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-ETL-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-Database%20Queries-E34F26?style=for-the-badge&logo=databricks&logoColor=white)
+![Status](https://img.shields.io/badge/DEPI-Data%20Analytics-8A2BE2?style=for-the-badge)
 
 </div>
 
@@ -77,9 +80,11 @@ The project brief also asks for forecasting next-month ride volume, the daily ti
 
 ## 🛠️ Tools & Technologies
 
-- **Python** — data preparation and analysis.
-- **pandas & NumPy** — transformation and validation.
-- **Microsoft Power BI** — planned interactive dashboard and reporting.
+- **Python** — data preparation, analysis, and validation.
+- **Microsoft Power BI** — interactive dashboard and reporting.
+- **Microsoft Excel** — spreadsheet-based data review and analysis.
+- **Power Query** — data cleaning and transformation.
+- **SQL** — querying and working with structured data.
 
 ## 📁 Project Structure
 
