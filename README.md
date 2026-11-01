@@ -2,9 +2,6 @@
 
 # 🚆 UK Train Rides Analytics
 
-![Project](https://img.shields.io/badge/PROJECT-UK%20TRAIN%20RIDES-0B5CAD?style=for-the-badge)
-![Focus](https://img.shields.io/badge/FOCUS-RAILWAY%20ANALYTICS-6F42C1?style=for-the-badge)
-
 **Turning railway transaction data into clear operational insights.**
 
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -17,8 +14,6 @@
 </div>
 
 ---
-
-![01](https://img.shields.io/badge/01-PROJECT%20OVERVIEW-0B5CAD?style=flat-square)
 
 ## 📌 Project Overview
 
@@ -58,25 +53,21 @@ The project brief also asks for forecasting next-month ride volume, the daily ti
 | 4. Power BI Dashboard | Present key metrics, trends, route and ticket breakdowns, and interactive filters. |
 | 5. Validation & Presentation | Reconcile dashboard measures, document assumptions, and prepare the final project presentation. |
 
-![02](https://img.shields.io/badge/02-OUR%20TEAM-6F42C1?style=flat-square)
-
 ## 👥 Team Members
 
-| Team Member | Role |
+| Name | Responsibility |
 |---|---|
-| ![Hessin Taha](https://img.shields.io/badge/Hessin%20Taha-0B5CAD?style=for-the-badge) | **Team Leader** |
-| ![Salma Sameh](https://img.shields.io/badge/Salma%20Sameh-198754?style=for-the-badge) | Team Member |
-| ![Yassin Athula](https://img.shields.io/badge/Yassin%20Athula-6F42C1?style=for-the-badge) | Team Member |
-| ![Ziad Emam](https://img.shields.io/badge/Ziad%20Emam-D97706?style=for-the-badge) | Team Member |
-| ![Ganna Amir](https://img.shields.io/badge/Ganna%20Amir-C0392B?style=for-the-badge) | Team Member |
+| Hessin Taha | Team Leader |
+| Salma Sameh | Team Member |
+| Yassin Athula | Team Member |
+| Ziad Emam | Team Member |
+| Ganna Amir | Team Member |
 
 *Detailed individual task ownership can be added once confirmed by the team.*
 
-![INSTRUCTOR](https://img.shields.io/badge/PROJECT%20INSTRUCTOR-198754?style=flat-square)
-
 ## 🧑‍🏫 Instructor
 
-![Mohamed Ahmed Saad](https://img.shields.io/badge/Mohamed%20Ahmed%20Saad-198754?style=for-the-badge)
+**Mohamed Ahmed Saad**
 
 ## 📈 Key Performance Indicators
 
