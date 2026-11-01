@@ -1,14 +1,14 @@
 # UK Train Rides Analytics
 
-An end-to-end data analytics project exploring UK railway ticket transactions and journey performance using Python and Microsoft Power BI.
+An end-to-end data analytics project exploring UK railway ticket transactions and journey performance, with Python-based data preparation and a planned Microsoft Power BI dashboard.
 
 ## Project Name
 UK Train Rides
 
 ## Project Idea
-Analyze UK railway ticket transactions to understand journey demand, ticket-class preferences, route performance, punctuality, delays, cancellations, refunds, and ticket-price patterns. The project is also intended to forecast the number of rides for the following month, estimate the daily ticket-value outlook, and identify expected demand across ticket classes.
+Analyze UK railway ticket transactions to understand journey demand, ticket-class preferences, route performance, punctuality, delays, cancellations, refunds, and ticket-price patterns. The project brief also calls for forecasting the number of rides for the following month, estimating the daily ticket-value outlook, and identifying expected demand across ticket classes.
 
-The forecasting objectives are part of the project brief; they must not be presented as completed until a model has been built and validated.
+The forecasting objectives are part of the project brief and must not be presented as completed until a forecasting model has been built and validated.
 
 ## Team Members
 | Name | Role |
@@ -31,11 +31,12 @@ Mohamed Ahmed Saad
 
 ## Roles & Responsibilities
 - **Hessin Taha — Team Leader:** coordinate the project, organize deliverables, track progress, and lead final integration.
-- **Salma Sameh, Yassin Athula, Ziad Emam, Ganna Amir — Team Members:** contribute to data preparation, analysis, dashboard development, validation, and documentation.
-- Individual task ownership for each member has not yet been supplied and should be updated once confirmed.
+- **Salma Sameh, Yassin Athula, Ziad Emam, and Ganna Amir — Team Members:** contribute to data preparation, analysis, dashboard development, validation, and documentation.
+- Individual task ownership for each member has not yet been provided and should be updated when confirmed.
 
 ## KPIs
-The available analytical report records the following transaction-level baseline:
+The available analysis report records the following transaction-level baseline:
+
 | KPI | Observed result |
 |---|---:|
 | Ticket transactions | 31,653 |
@@ -56,12 +57,9 @@ Additional dashboard and forecasting KPIs:
 **Metric caution:** the source records ticket transactions, not unique train services. The sum of the Price field must not be labelled verified revenue because currency and accounting treatment are undocumented.
 
 ## Project Files
-- `cleaning_pipeline.py` — reproducible Python data-cleaning and modelling pipeline.
-- `docs/project_summary.md` — data scope, model structure, baseline findings, and limitations.
-- `reports/UK_Train_Rides_Analytics_Report.pdf` — detailed analysis and Power BI handoff report (to be added).
-- `reports/UK_Train_Rides_Audit_Workbook.xlsx` — audit workbook and validation evidence (to be added).
-- `data/FactRailwayTransaction.csv` — transaction-grain fact table (to be added).
-- Native Power BI `.pbix` was not present in the located project artifacts; do not treat the report design specification as a deployed dashboard.
+- `docs/project_summary.md` — detailed data scope, model structure, baseline findings, and limitations.
+- `cleaning_pipeline.py` and prepared CSV/model outputs are part of the project working materials and can be added as repository assets in a subsequent upload.
+- A native Power BI `.pbix` was not present in the located project artifacts; the analysis handoff report is not a deployed interactive dashboard.
 
 ## Data Scope & Limitations
 - The located analysis covers 31,653 ticket transactions from 2024-01-01 through 2024-04-30.
@@ -69,7 +67,7 @@ Additional dashboard and forecasting KPIs:
 - The source does not document the currency or accounting treatment for Price; the sum is not verified revenue.
 - Railcard nulls require confirmation from the data owner; they are retained as “Not recorded,” not assumed to mean “No railcard.”
 - Some delay-reason labels were standardized using explicit mappings; these assumptions should be reviewed before official use.
-- A native Power BI PBIX and interactive report behavior were not verified in the located artifacts.
+- A native PBIX and interactive report behavior were not verified in the located artifacts.
 
 ## Tools
 Python, pandas, NumPy, Microsoft Power BI.
